@@ -1,0 +1,44 @@
+---
+title: "Ret"
+author: "Nd"
+date: '2022-06-02'
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+## Intro to markdown
+
+Markdown allows you to do things like **bold** *italic* and more!
+
+Make a list wit asterisks like: \* bold with double-asterisk \* italics
+with underscores \* code-type fond with backticks
+
+You can also use hyphens instead of asterisks.
+
+For a number list: 1. bold.... 1. italic.... 1. code....
+
+
+Hyperlinks are like [Hyperlinked text] (https://mylink.org)
+
+```{r load data}
+gap <- gapminder
+
+```
+
+
+```{r make-plot}
+plot(lifeExp ~ year, data=gap)
+```
+
+
+
+view(gap)
+view(gap)
+```{r}
+temp  <- c(1,2,3)
+```
+```{r}
+
+```
